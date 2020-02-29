@@ -7,15 +7,17 @@
     <title>Animal Refuge</title>
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600|Fredericka+the+Great&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2f36dc9985.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header class="wrapper">
-        <section>
+    <header>
+        <section class="wrapper">
             <nav>
                 <div>
-                    <ul>
+                    <ul class="headerNav">
                         <li><a href="#">home</a></li>
                         <li><a href="#">about</a></li>
                         <li><a href="#">blog</a></li>
@@ -29,53 +31,94 @@
         </section>
     </header>
     <main>
-        <div class="wrapper">
-            <section class="featureStory">
+        <section class="featureStory">
+            <div class="wrapper clearfix">
                 <div>
-                    <img src="" alt="">
+                    <img src="./animal-land-assets/image-6.jpg" alt="Suzie the cat looking hella cute">
                 </div>
-                <div>
+                <div class="suzieContent">
                     <h2>Suzie's Story</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi nam et quo quod ratione
-                        assumenda
-                        aspernatur ipsa voluptate quasi! Quasi dicta neque, aspernatur blanditiis aliquam corporis!
-                        Corrupti
-                        quam, ab ullam quas hic reprehenderit velit. Doloribus excepturi tempora consequuntur amet,
-                        commodi
-                        deleniti earum qui. Ea, quasi! Illo ea ad repellat.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore quasi deleniti nostrum facere
+                        illum nobis, laborum asperiores ad molestiae impedit suscipit ullam eius aliquam ea aut
+                        consectetur omnis officia saepe? Dolore aut voluptates similique nihil quibusdam dolores
+                        voluptate ullam eum suscipit reiciendis corrupti, eos sequi sapiente tenetur incidunt, provident
+                        praesentium repellendus cumque. Rem, voluptatibus molestiae consequuntur atque veniam expedita
+                        voluptate.</p>
                     <a href="">Read More</a>
                 </div>
-            </section>
-            <section class="ourFriends">
+            </div>
+        </section>
+        <section class="ourFriends">
+            <div class="wrapper clearfix">
                 <div>
                     <h2>Some of our friends</h2>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="./animal-land-assets/image-5.jpg" alt="green reptile of sorts">
+                    <img class="middleFriend" src="./animal-land-assets/image-4.jpg" alt="cute sheeper">
+                    <img src="./animal-land-assets/image-3.jpg" alt="exotic flapper">
                 </div>
-            </section>
-            <section class="secondNav">
+            </div>
+        </section>
+        <section class="secondNav">
+            <div class="wrapper clearfix">
                 <div>
-                    <i>Paw Print Icon</i>
-                    <h3>Animal Spotlight</h3>
-                </div>
-                <div>
-                    <i>calender</i>
-                    <h3>Events</h3>
+                    <i class="fas fa-paw"></i>
+                    <a href="#">Animal Spotlight</a>
                 </div>
                 <div>
-                    <i>handbag</i>
-                    <h3>Merch</h3>
+                    <i class="fas fa-calendar-check"></i>
+                    <a href="#">Events</a>
                 </div>
-            </section>
+                <div>
+                    <i class="fas fa-shopping-bag"></i>
+                    <a href="#">Merch</a>
+                </div>
+            </div>
+        </section>
         </div>
-        <section class="">
-
+        <section class="articles clearfix">
+            <div class="zebraFacts">
+                <h3>Fascinating Facts About Zebras</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, quam dolorum. Iusto commodi dolores aut quos numquam, aperiam saepe eveniet dignissimos sunt necessitatibus quis itaque odit porro facilis. Ducimus laboriosam tempore vel deleniti quibusdam consectetur laudantium aut quam qui sed?</p>
+                <a href="">Read More</a>
+            </div>
+            <div class="zebraFacts">
+                <img src="./animal-land-assets/zebra-missing.jpg" alt="">
+            </div>
+            <div class="kittyFacts">
+                <img src="./animal-land-assets/image-2.jpg" alt="">
+            </div>
+            <div class="kittyFacts">
+                <h3>The Bond Between Animals and Humans</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam cum delectus temporibus veniam dolorem corrupti, amet labore molestiae vero quam sunt modi dolore culpa corporis exercitationem omnis odit a saepe voluptatum ad qui. Veniam error voluptatem provident aperiam ad odio.</p>
+                <a href="">Read More</a>
+            </div>
         </section>
     </main>
 
+    <footer class="wrapper">
+        <nav class="footernav">
+            <a href="">Home</a>
+            <a href="">Blog</a>
+            <a href="">Gallery</a>
+            <a href="">Contact</a>
+        </nav>
+        <div>
+            <h5>stay updated</h5>
+            <p>Subscribe to our newsletter to stay updated.</p>
+            <input type="email" name="email" value="email address">
+            <input type="submit" value="Subscribe">
+        </div>
+        <div>
+            <h5>Contact</h5>
+            <p>info@email.com | 123 - 456 - 7890<span>123 some road, Toronto, ON</span>A5A 5A5, Canada</p>
+        </div>
+    </footer>
+
+    <div class="wrapper">
+        <p>Copyright 2019 HackerYou?</p>
+    </div>
 </body>
 
 </html>

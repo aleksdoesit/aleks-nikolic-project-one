@@ -5,3 +5,235 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .visuallyHidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
+
+/* Global Stylings */
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header background */
+
+header {
+    background: url(./animal-land-assets/image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Header Navbar stylings */
+
+.headerNav {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.headerNav li {
+    float: left;
+    padding: 0 20px;
+    padding-top: 20px;
+}
+
+header a {
+    font-family: 'Cormorant Garamond';
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FCFCFC;
+}
+
+/* H1 Stylings */
+
+header h1 {
+    font-family: 'Fredericka the Great';
+    font-size: 10rem;
+    line-height: 100px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #FCFCFC;
+    float: right;
+    margin-top: 120px;
+    width: 50%;
+}
+
+/* Feature Story Section Stylings */
+
+.featureStory {
+    background: #152D20;
+}
+
+/* Styling Suzie! */
+
+.featureStory div div img {
+    width: 25%;
+    margin: 80px 0;
+    float: left;
+    /* display: block; */
+}
+
+.suzieContent {
+    float: left;
+    margin-top: 80px;
+    margin-left: 50px;
+    width: calc(75% - 50px);
+}
+
+/* Suzie content styles */
+
+.suzieContent h2 {
+    font-family: 'Fredericka the Great';
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    color: #FCFCFC;
+}
+
+.suzieContent p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.9rem;
+    color: #FCFCFC;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+.suzieContent a {
+    font-family: 'Cormorant Garamond';
+    font-size: 1.8rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:#FCFCFC;
+    color: #152D20;
+    border: 3px solid #FCFCFC;
+}
+
+.suzieContent a:hover {
+    border: 3px solid #152D20;
+}
+
+/* Friends section styling */
+
+.ourFriends {
+    background: #C3D3CB;
+}
+
+.ourFriends div h2 {
+    font-family: 'Fredericka the Great';
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    color: #000000;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.ourFriends div img {
+    float: left;
+    width: calc((100% - 80px) / 3);
+    margin-bottom: 80px;
+}
+
+.middleFriend {
+    margin: 0 40px;
+}
+
+/* Secondary mid-screen Nav styling */
+
+.secondNav {
+    background:#152D20;
+}
+
+.secondNav div > div {
+    float: left;
+    margin: 60px 0;
+    padding: 0 80px;
+    width: 33%;
+    text-align: center;
+}
+
+.secondNav i, a {
+    color: #FCFCFC;
+}
+
+.secondNav i {
+    font-size: 6rem;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.secondNav a {
+    font-family: 'Cormorant Garamond';
+    font-weight: 500;
+    font-size: 3.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 4rem;
+}
+
+/* Article section styling */
+
+.articles {
+    background-color: #FCFCFC;
+}
+
+.articles img {
+    max-width: 100%;
+    display: block;
+}
+
+.zebraFacts,
+.kittyFacts {
+    float: left;
+    width: 50%;
+}
+
+.articles h3 {
+    font-family: 'Fredericka the Great';
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 100px 100px 20px 40px;
+    width: 80%;
+}
+
+.articles p {
+    font-family: 'Cormorant Garamond';
+    font-size: 2rem;
+    padding: 0 100px 60px 110px;
+    line-height: 2.9rem;
+}
+
+.articles a {
+    font-family: 'Cormorant Garamond';
+    font-size: 1.8rem;
+    padding: 10px 20px;
+    margin-left: 105px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:#152D20;
+    color: #FCFCFC;
+    border: 3px solid #152D20;
+}
+
+.articles a:hover {
+    border: 3px double #FCFCFC;
+}
+
+
+
+
+
+
+
+
+
+
