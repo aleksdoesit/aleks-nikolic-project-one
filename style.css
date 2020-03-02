@@ -344,3 +344,238 @@ footer div nav a {
     text-align: center;
     padding: 15px 0 30px;
 }
+
+/* Responsive Media Queries */
+
+/* Desktop View */
+
+@media (max-width: 1350px) {
+    .suzieContent p {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .ourFriends div h2 {
+        padding: 50px 0;
+    }
+
+    .articles h3 {
+        font-size: 3rem;
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 90px;
+        padding-right: 0px;
+    }
+
+    .articles p {
+        line-height: 2rem;
+        padding: 0px 90px 30px;
+    }
+
+    .articles a {
+        margin-left: 88px;
+    }
+}
+
+/* Small Laptop and Tablet View */
+
+@media (max-width: 975px) {
+
+    header {
+        max-height: 90vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    header section div h1 {
+        width: 40%;
+        font-size: 5rem;
+        line-height: 5rem;
+        margin-top: 0;
+        padding-top: 50px;
+    }
+
+    .featureStory > div {
+        padding-bottom: 40px;
+    }
+
+    .suzieContent h2 {
+        font-size: 2.8rem;
+    }
+    .suzieContent a {
+        font-size: 1.5rem;
+        padding: 5px 10px;
+    }
+
+    .ourFriends div h2 {
+        width: 80%;
+    }
+
+    .secondNav div div {
+        padding: 0;
+    }
+
+    .secondNav div a {
+        font-size: 2.5rem;
+    }
+
+    .zebraFacts,
+    .kittyFacts {
+        width: 100%;
+        margin: 10px auto 50px;
+    }
+
+    .zebrasFloat,
+    .kittyFloat {
+        float: left;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+
+    footer div .footernav,
+    footer div .subscriberForm,
+    footer div .contactUs {
+        float: none;
+    }
+
+    .footernav {
+        width: 100%;
+        padding: 40px  0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footernav a {
+        display: inline-block;
+        font-size: 1.5rem;
+        padding: 0 20px;
+    }
+
+    .subscribeForm {
+        width: 100%;
+    }
+
+    .subscribeForm h5 {
+        margin: 0px 0px 20px;
+    }
+
+    .subscribeForm input[type=email] {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .subscribeForm input[type=submit] {
+        width: 100%;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    footer .contactUs {
+        width: 100%;
+    }
+
+    footer .contactUs h5,
+    footer .contactUs p {
+        text-align: center;
+    }
+
+    footer .contactUs p {
+        padding-bottom: 30px;
+    }
+}
+
+/* Mobile View */
+
+@media (max-width: 600px) {
+    .headerNav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        float: right;
+        text-align: right;
+        color: #FCFCFC;
+        font-size: 3.5rem;
+        margin-top: 10px;
+    }
+
+    header section div h1 {
+        float: none;
+        font-size: 3rem;
+        line-height: 3rem;
+        text-align: left;
+        padding-top: 10px;
+        margin-left: -20px;
+        display: block;
+    }
+
+    .featureStory > div > div {
+        float: none;
+    }
+
+    .featureStory div div img {
+        float: none;
+        width: 100%;
+    }
+
+    .suzieContent {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .suzieContent p {
+        line-height: 3rem;
+        margin: 0 auto 30px;
+    }
+
+    .suzieContent a {
+        margin-left: 120px;
+        display: inline-block;
+    }
+
+    .ourFriends div div h2 {
+        font-size: 3.5rem;
+        line-height: 5rem;
+        padding: 30px 0;
+    }
+
+    .ourFriends div div img:nth-child(3) {
+        display: none;
+    }
+
+    .ourFriends div div img {
+        margin-bottom: 30px;
+        width: calc(50% - 10px);
+    }
+
+    .middleFriend {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    .secondNav div div {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .secondNav div div:first-child {
+        padding-top: 30px;
+    }
+
+    .zebrasFloat,
+    .kittyFloat {
+        width: 100%;
+        float: none;
+    }
+
+    .footernav a {
+        padding: 5px;
+    }
+}
