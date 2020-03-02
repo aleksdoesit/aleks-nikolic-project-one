@@ -228,12 +228,119 @@ header h1 {
     border: 3px double #FCFCFC;
 }
 
+/* footer stylings */
 
+footer {
+    background: #152D20;
+}
 
+footer div nav,
+footer div div {
+    float: left;
+    /* width: calc(100% / 3); */
+}
 
+footer div nav {
+    padding: 80px 0;
+    width: 25%;
+}
 
+footer div nav a {
+    display: block;
+    font-family: 'Cormorant Garamond';
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
 
+/* Form Stylings */
 
+.subscribeForm {
+    width: 50%;
+}
 
+.subscribeForm h5,
+.subscribeForm p {
+    color: #FCFCFC;
+    text-align: center;
+}
 
+.subscribeForm h5 {
+    font-family: 'Cormorant Garamond';
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin: 80px 0px 10px;
+}
 
+.subscribeForm p {
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+}
+
+.subscribeForm input[type="email"] {
+    width: 70%;
+    float: left;
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+    padding: 10px 20px 11px;
+    border: none;
+}
+
+.subscribeForm input[type="submit"] {
+    width: 30%;
+    color: #FCFCFC;
+    background: #000000;
+    font-family: 'Cormorant Garamond';
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+}
+
+.subscribeForm input[type="submit"]:hover {
+    background: #FCFCFC;
+    color: #000000;
+}
+
+/* Contact Stylings */
+
+.contactUs {
+    width: 25%;
+}
+
+.contactUs h5 {
+    font-family: 'Cormorant Garamond';
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: #FCFCFC;
+    text-align: right;
+    margin: 80px 0 10px;
+}
+
+.contactUs p {
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+    color: #FCFCFC;
+    text-align: right;
+    line-height: 2.5rem;
+}
+
+.contactUs span {
+    display: block;
+}
+
+/* copyright stylings */
+
+.copyright {
+    background: #000000;
+}
+
+.copyright p {
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 15px 0 30px;
+}
